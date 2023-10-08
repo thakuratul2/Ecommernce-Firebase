@@ -10,6 +10,7 @@ function MyState(props){
     return (
         <MyContext.Provider value={state}>
             {props.children}
+            
         </MyContext.Provider>
     )
 }
