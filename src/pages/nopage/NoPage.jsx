@@ -1,10 +1,9 @@
-import React from 'react';
-import Layout from '../../components/layout/Layout';
+import React from 'react'
 
-const NoPage = () => {
+function NoPage() {
   return (
-   <Layout>No Page</Layout>
-  );
+    <div>NoPage</div>
+  )
 }
 
-export default NoPage;
+export default NoPage
